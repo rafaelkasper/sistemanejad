@@ -1,0 +1,167 @@
+/* open-sans-regular - latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/open-sans-v15-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Open Sans Regular'), local('OpenSans-Regular'),
+       url('../fonts/open-sans-v15-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/open-sans-v15-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/open-sans-v15-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/open-sans-v15-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/open-sans-v15-latin-regular.svg#OpenSans') format('svg'); /* Legacy iOS */
+}
+/* poppins-regular - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/poppins-v5-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Poppins Regular'), local('Poppins-Regular'),
+       url('../fonts/poppins-v5-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/poppins-v5-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/poppins-v5-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/poppins-v5-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/poppins-v5-latin-regular.svg#Poppins') format('svg'); /* Legacy iOS */
+}
+/* oxygen-regular - latin-ext_latin */
+@font-face {
+  font-family: 'Oxygen';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/oxygen-v7-latin-ext_latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Oxygen Regular'), local('Oxygen-Regular'),
+       url('../fonts/oxygen-v7-latin-ext_latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/oxygen-v7-latin-ext_latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/oxygen-v7-latin-ext_latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/oxygen-v7-latin-ext_latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/oxygen-v7-latin-ext_latin-regular.svg#Oxygen') format('svg'); /* Legacy iOS */
+}
+/* noto-sans-regular - latin */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/noto-sans-v7-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Noto Sans'), local('NotoSans'),
+       url('../fonts/noto-sans-v7-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/noto-sans-v7-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/noto-sans-v7-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/noto-sans-v7-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/noto-sans-v7-latin-regular.svg#NotoSans') format('svg'); /* Legacy iOS */
+}
+body, html{ 
+    background-image:url(../imagens/pinot.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+ font-family: "Poppins",sans-serif;
+ text-decoration: none;
+}
+
+.container form{
+    
+    border-bottom: 4px solid steelblue;
+    border-right: 4px solid steelblue;
+    border-left: 4px solid steelblue;
+     background-color: gainsboro;
+     
+}
+
+.container form  input[type="text"]
+{
+    border: none;
+    color: #525252;
+    height: 25px;
+    line-height:15px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 5px 0px 5px 5px;
+    width: 70%;
+    background: white;
+   
+}
+
+.container form  input:focus {
+    background-color: lightblue;
+color:black;
+}
+
+
+.stepwizard-step p {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #1e5799;
+}
+.stepwizard-step a {
+    background-color: transparent;
+    border: none;
+}
+
+.stepwizard-row {
+    display: table-row;
+}
+
+.stepwizard {
+    display: table;
+    width: 100%;
+    position: relative;
+    background: gainsboro;
+    margin-top: 20px;
+    margin-bottom: 0;
+    border-top: 4px solid steelblue;
+    border-right: 4px solid steelblue;
+    border-left: 4px solid steelblue;
+    border-bottom: 4px solid darkslategrey;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.stepwizard-step button[disabled] {
+    opacity: 1 !important;
+    filter: alpha(opacity=100) !important;
+}
+
+.stepwizard-row:before {
+    top: 14px;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+    z-order: 0;
+
+}
+
+.stepwizard-step {
+    display: table-cell;
+    text-align: center;
+    position: relative;
+}
+
+.stepwizard a:hover {
+  background-color: orange;
+}
+
+    
+ label {
+  display: block;
+  padding-bottom: 5px;
+  color: steelblue;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 520px) {
+  .input {
+    width: 98%;
+  }
+}
+
+.form-group{
+    padding-right: 10px;
+    padding-left: 0;
+}

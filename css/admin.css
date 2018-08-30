@@ -1,0 +1,142 @@
+/* open-sans-regular - latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/open-sans-v15-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Open Sans Regular'), local('OpenSans-Regular'),
+       url('../fonts/open-sans-v15-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/open-sans-v15-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/open-sans-v15-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/open-sans-v15-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/open-sans-v15-latin-regular.svg#OpenSans') format('svg'); /* Legacy iOS */
+}
+/* poppins-regular - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/poppins-v5-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Poppins Regular'), local('Poppins-Regular'),
+       url('../fonts/poppins-v5-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/poppins-v5-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/poppins-v5-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/poppins-v5-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/poppins-v5-latin-regular.svg#Poppins') format('svg'); /* Legacy iOS */
+}
+/* oxygen-regular - latin-ext_latin */
+@font-face {
+  font-family: 'Oxygen';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/oxygen-v7-latin-ext_latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Oxygen Regular'), local('Oxygen-Regular'),
+       url('../fonts/oxygen-v7-latin-ext_latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/oxygen-v7-latin-ext_latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/oxygen-v7-latin-ext_latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/oxygen-v7-latin-ext_latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/oxygen-v7-latin-ext_latin-regular.svg#Oxygen') format('svg'); /* Legacy iOS */
+}
+/* noto-sans-regular - latin */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/noto-sans-v7-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Noto Sans'), local('NotoSans'),
+       url('../fonts/noto-sans-v7-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/noto-sans-v7-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/noto-sans-v7-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/noto-sans-v7-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/noto-sans-v7-latin-regular.svg#NotoSans') format('svg'); /* Legacy iOS */
+}
+html,body{
+    margin:0px;
+    padding:0px;
+    background-image:url(../imagens/pinot.jpg);
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+ font-family: "Poppins",sans-serif;
+    color: white;
+}
+
+
+
+.img_menu {
+    display: inline-block;
+    position:relative;
+    left:0%;
+    top:0%;
+    transform: translate(0%, 0%);
+    
+}
+
+
+
+
+.container {
+  height: 100%;
+  min-height: 100%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  padding-top: 6%;
+  padding-left: 4%;
+  flex-wrap: nowrap;
+    }
+ 
+.row {
+  display: flex;
+    padding: 0 4px;
+ }
+
+.column {
+   flex: 50%;
+  max-width: 50%;
+     color:DarkSlateGray; 
+           border: 3px solid steelblue;
+    background-color: gainsboro;
+           margin: 5px;
+    border-radius: 20px;
+    transition:opacity 1s;
+  -webkit-transition:opacity 1s;
+  text-align:center;
+}
+.column a{
+display:block; height:100%;
+width:100%; 
+cursor:pointer;
+ padding-left: 5px;
+    padding-right: 100px;
+    padding-bottom: 5px;
+    padding-top: 20px;
+}
+.column img {
+  margin-top: 2px;
+  vertical-align: middle;
+  align-items: center;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .row {
+    flex: 50%;
+    max-width: 50%;
+    flex-wrap:wrap;
+  }
+}
+
+
+
+.column:hover {background-color:orange; text-decoration:none;}
+
+   
+.column a:link {color:DarkSlateGray; text-decoration:none;}
+.column a:hover {color:DarkSlateGray; text-decoration:none;}
+.column a:active {color:DarkSlateGray; text-decoration:none;}
+.column a:visited {color:DarkSlateGray; text-decoration:none;}

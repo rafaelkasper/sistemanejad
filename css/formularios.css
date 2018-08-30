@@ -1,0 +1,408 @@
+/* open-sans-regular - latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/open-sans-v15-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Open Sans Regular'), local('OpenSans-Regular'),
+       url('../fonts/open-sans-v15-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/open-sans-v15-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/open-sans-v15-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/open-sans-v15-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/open-sans-v15-latin-regular.svg#OpenSans') format('svg'); /* Legacy iOS */
+}
+/* poppins-regular - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/poppins-v5-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Poppins Regular'), local('Poppins-Regular'),
+       url('../fonts/poppins-v5-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/poppins-v5-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/poppins-v5-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/poppins-v5-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/poppins-v5-latin-regular.svg#Poppins') format('svg'); /* Legacy iOS */
+}
+/* oxygen-regular - latin-ext_latin */
+@font-face {
+  font-family: 'Oxygen';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/oxygen-v7-latin-ext_latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Oxygen Regular'), local('Oxygen-Regular'),
+       url('../fonts/oxygen-v7-latin-ext_latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/oxygen-v7-latin-ext_latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/oxygen-v7-latin-ext_latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/oxygen-v7-latin-ext_latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/oxygen-v7-latin-ext_latin-regular.svg#Oxygen') format('svg'); /* Legacy iOS */
+}
+/* noto-sans-regular - latin */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/noto-sans-v7-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Noto Sans'), local('NotoSans'),
+       url('../fonts/noto-sans-v7-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/noto-sans-v7-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/noto-sans-v7-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/noto-sans-v7-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/noto-sans-v7-latin-regular.svg#NotoSans') format('svg'); /* Legacy iOS */
+}
+#sair {
+    display: inline-block;
+    position:relative;
+    left:10%;
+    top:5%;
+    transform: translate(0%, 15%);
+}
+
+
+.container {
+    background-image:url(../imagens/pinot.jpg);
+     
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+    background-attachment:fixed!important;
+    
+}
+.container2 {
+    background-image:url(../imagens/pinot.jpg);
+     max-width: 950px;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+    background-attachment:fixed!important;
+    margin-left: auto;
+    margin-right: auto;
+}
+html,body{
+    margin:0px;
+    padding:0px;
+   background-image:url(../imagens/pinot.jpg);
+    font-family: "Poppins",sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+
+    color: white;
+}
+
+
+.dark-matter {
+    margin-left: auto;
+    margin-right: auto;
+
+    background: gainsboro;
+    padding: 20px 30px 20px 30px;
+    font: 14px;
+
+    color: black;
+    border: none;
+    text-transform: uppercase;
+}
+
+.dark-matter h1 {
+    padding: 0px 0px 10px 40px;
+    display: block;
+    border-bottom: 1px solid #444;
+    margin: -10px -30px 30px -30px;
+}
+
+
+.dark-matter h1>span {
+    display: block;
+    font-size: 11px;
+}
+.dark-matter label {
+    display: block;
+    margin: 0px 0px 5px;
+}
+.dark-matter label>span {
+    float: left;
+    width: 20%;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.dark-matter input[type="text"], .dark-matter input[type="email"], .dark-matter textarea, .dark-matter select {
+    border: none;
+    color: #525252;
+    height: 25px;
+    line-height:15px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 5px 0px 5px 5px;
+    width: 70%;
+    background: white;
+    text-transform: uppercase;
+}
+.dark-matter input:focus {
+    background-color: lightblue;
+
+}
+
+.dark-matter select {
+    
+    
+    text-indent: 0.01px;
+    text-overflow: '';
+    width: 70%;
+    height: 35px;
+    color: #525252;
+    line-height: 25px;
+}
+
+.dark-matter2 {
+    margin-left: auto;
+    margin-right: auto;
+
+    background: gainsboro;
+    padding: 20px 30px 20px 30px;
+    font: 14px;
+
+    color: black;
+    border: none;
+}
+
+.dark-matter2 h1 {
+    padding: 0px 0px 10px 40px;
+    display: block;
+    border-bottom: 1px solid #444;
+    margin: -10px -30px 30px -30px;
+}
+
+
+.dark-matter2 h1>span {
+    display: block;
+    font-size: 11px;
+}
+.dark-matter2 label {
+    display: block;
+    margin: 0px 0px 5px;
+}
+.dark-matter2 label>span {
+    float: left;
+    width: 20%;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.dark-matter2 input[type="text"], .dark-matter2 input[type="email"], .dark-matter2 textarea, .dark-matter2 select {
+    border: none;
+    color: #525252;
+    height: 25px;
+    line-height:15px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 5px 0px 5px 5px;
+    width: 70%;
+    background: white;
+}
+.dark-matter2 input:focus {
+    background-color: lightblue;
+
+}
+
+.dark-matter2 select {
+   
+    text-overflow: '';
+    width: 70%;
+    height: 35px;
+    color: #525252;
+    line-height: 25px;
+}
+h1 {
+    text-align: center;
+
+    text-decoration: none;
+    color:white;
+    font-weight: bolder;
+}
+#form {
+    border: 2px solid #1e5799;
+    margin-top: 20px;
+}
+p{
+    font-weight: bold;
+    font-size: 16px;
+    color: #1e5799;
+
+}
+
+hr {
+    border: 2px solid gray;
+}
+
+#linhamenu {
+    border: 2px solid orangered;
+}
+
+.caixa {
+    border-color: gray;
+    background-color: whitesmoke;
+    height: 25px;
+    font-size: 16px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+}
+
+
+#botaolimpar {
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    border-radius: 20px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    font-weight: bold;
+    box-shadow: 1px 1px 1px #3D3D3D;
+    -webkit-box-shadow:1px 1px 1px #3D3D3D;
+    -moz-box-shadow:1px 1px 1px #3D3D3D;
+    cursor:pointer;
+    transition:background .3s;
+    -webkit-transition:background .3s;
+    position:relative;
+    left:70%;
+    top:10%;
+}
+
+#botaoenviar {
+
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    border-radius: 20px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    font-weight: bold;
+    box-shadow: 1px 1px 1px #3D3D3D;
+    -webkit-box-shadow:1px 1px 1px #3D3D3D;
+    -moz-box-shadow:1px 1px 1px #3D3D3D;
+    cursor:pointer;
+    transition:background .3s;
+    -webkit-transition:background .3s;
+    position:relative;
+    left:70%;
+    top:10%;
+}
+
+#botaolimpar:hover{
+    background:orange;
+}
+#botaoenviar:hover{
+    background:orange;
+}
+
+#pesq {
+    background-color: SteelBlue;
+    color: white;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    border-radius: 20px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    font-weight: bold;
+    box-shadow: 1px 1px 1px #3D3D3D;
+    -webkit-box-shadow:1px 1px 1px #3D3D3D;
+    -moz-box-shadow:1px 1px 1px #3D3D3D;
+    cursor:pointer;
+    transition:background .3s;
+    -webkit-transition:background .3s;
+
+}
+#pesq:hover{
+    background:orange;
+    color: SteelBlue;
+}
+
+
+#formconsulta {
+    border: 2px solid #1e5799;
+    border-radius: 0px;
+
+}
+
+
+a:hover, a:active {
+    background-color: orange;
+    color: #1e5799;
+}
+
+
+#editenviar {
+    background-color: SteelBlue;
+    color: white;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    border-radius: 20px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    font-weight: bold;
+    box-shadow: 1px 1px 1px #3D3D3D;
+    -webkit-box-shadow:1px 1px 1px #3D3D3D;
+    -moz-box-shadow:1px 1px 1px #3D3D3D;
+    cursor:pointer;
+    transition:background .3s;
+    -webkit-transition:background .3s;
+}
+#editenviar:hover{
+    background:orange;
+    color: SteelBlue;
+}
+#botao{
+    position: relative;
+    left: 45%;
+}
+span {
+    padding-top: 7px;
+    position: relative;
+    left: 85%;
+    font-weight: bold;
+    cursor:pointer;
+    transition:background .3s;
+    -webkit-transition:background .3s;
+}
+
+
+@media screen and (max-width: 800px) {
+    form {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+a:link, a:visited {
+    background-color: #333;
+    color: white;
+    padding: 4px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: red;
+}
+
+.pdf{
+     background-image:url(../imagens/pinot.jpg);
+     max-width: 950px;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+    background-attachment:fixed!important;
+    margin-left: auto;
+    margin-right: auto;
+}
